@@ -1,0 +1,24 @@
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: white;
+}
+
+.amount_in_cart {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 7px;
+    color: black;
+    font-size: 13px;
+}
+.cart {
+    position: relative;
+}

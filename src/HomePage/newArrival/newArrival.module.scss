@@ -1,0 +1,35 @@
+
+#newArrival {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row_products {
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.row_products_trans{
+    transition: 0.5s;
+}
+
+.new_products {
+    position: relative;
+}
+
+#left {
+    font-size: 60px;
+    position: absolute;
+    top: 45%;
+    left: -3%;
+    cursor: pointer;
+}
+
+#right {
+    font-size: 60px;
+    position: absolute;
+    top: 45%;
+    right: -3%;
+    cursor: pointer;
+}

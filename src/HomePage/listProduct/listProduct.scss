@@ -1,0 +1,165 @@
+
+.listProducts {
+
+    & .listProductBanner {
+        margin: 30px 0;
+
+        & .bannerListProduct {
+            display: flex;
+            justify-content: space-evenly;
+
+            & .descriptionProductBanner {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                & .title {
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+
+                & .call {
+                    font-size: 18px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    & .listProduct {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        & .btnTotal {
+            position: absolute;
+            font-size: 25px;
+            font-weight: 800;
+            background-color: rgba(249, 203, 116, 0.7);
+            border: 0;
+            color: white;
+        }
+
+        & .btnLeft {
+            top: 48%;
+            left: 3px;
+        }
+        & .btnRight {
+            top: 48%;
+            right: 3px;
+        }
+        & .ProductsTotal {
+            overflow: hidden;
+            width: 95%;
+
+            & .Products {
+                margin: 30px 0;
+                width: 100%;
+                flex-wrap: nowrap;
+                transition: 0.5s;
+    
+                & .product {
+                    padding: 0;
+                    border: 1px solid rgb(225, 224, 224);
+                    border-radius: 10px;
+                    width: 233px;
+                    margin: 0 4px;
+                    height: 315px;
+                    font-family: 'poppins';
+    
+                    &__image {
+                        width: 100%;
+                        margin-top: 35px;
+                        display: flex;
+                        justify-content: center;
+                        height: 100px;
+                        & img {
+                            object-fit: contain;
+                        }
+                    }
+    
+                    &__name {
+                        margin-top: 20px;
+                        font-size: 17px ;
+                        padding: 0 20px;
+                        height: 55px;
+                        font-weight: 600;
+                    }
+    
+                    &__color {
+                        display: flex;
+                        padding: 0 20px;
+                        height: 25px;
+                        
+    
+                        & .color {
+                            font-size: 17px;
+                            margin-right: 8px;
+                            font-weight: 700;
+                        }
+    
+                        & .colorProduct {
+                            margin: 4px 3px  ;
+                            width:17px;
+                            height: 17px;
+                            border-radius: 50%;
+                            border: 1px solid #999;
+                        }
+                    }
+    
+                    &__price {
+                        font-size: 17px;
+                        height: 23px;
+                        margin: 4px 0;
+                        padding: 0 20px;
+                        font-weight: 800;
+                        color: red;
+                    }
+                    &__action {
+                        display: flex;
+                        justify-content: space-evenly;
+                        margin: 10px 0;
+                        & button {
+                            background : 0;
+                            border: 1px solid rgb(145, 140, 140);
+                            width: 100px;
+                            height: 30px;
+                            border-radius: 10px;
+                            font-size: 15px;
+                            transition: 0.5s;
+                            font-weight: 800;
+
+                        }
+                        & button:hover {
+                            background-color: black;
+                            color: white;
+                        }
+                        & i {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pink {
+    background-color: pink;
+}
+.white {
+    background-color: white;
+}
+.black {
+    background-color: black;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}

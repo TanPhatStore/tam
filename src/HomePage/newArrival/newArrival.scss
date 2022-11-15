@@ -1,0 +1,90 @@
+.new_Products {
+    height: 490px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+
+    & .btnLeft {
+        position: absolute;
+        top: 47%;
+        left: 0px;
+        font-size: 19px;
+        border: 0;
+        background-color: rgba(248, 201, 114, 0.7);
+        color: white;
+    }
+    & .btnRight {
+        position: absolute;
+        top: 47%;
+        right: 11px;
+        font-size: 19px;
+        border: 0;
+        background-color: rgba(248, 201, 114, 0.7);
+        color: white;
+    }
+    &_row {
+        height: 49% ;
+        width: 100%;
+        margin-bottom: 8px;
+        display: flex;
+        flex-wrap: nowrap;
+        transition: 0.5s;
+    
+        & .product {
+            width: 180px;
+            height: 100%;
+            font-family: 'poppins';
+            border: 1px solid rgb(225, 224, 224);
+            object-fit: contain;
+            margin-right: 14px;
+
+            &__image {
+                display: flex;
+                justify-content: center;
+                margin-top: 13px;
+                height: 85px;
+
+                & img {
+                    object-fit: contain;
+                }
+            }
+
+            &__name {
+                font-size: 16px;
+                margin-top: 15px;
+                height: 50px;
+                padding: 0 20px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+            &__name :hover {
+                color: rgb(248, 201, 114);
+            }
+
+            &__price {
+                font-size: 18px;
+                margin-top: 8px;
+                margin-left: 20px;
+                color: red;
+                font-weight: bold;
+            }
+
+            &__action {
+                display: flex;
+                justify-content: space-evenly;
+                font-size: 13px;
+                margin-top: -7px;
+                margin-bottom: 10px;
+
+                & button {
+                    border: 0;
+                    color: white;
+                    background-color: black;
+                    border-radius: 3px;
+                    margin: 0 0 ;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#logo_header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__navitem {
+    padding: 10px 18px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}

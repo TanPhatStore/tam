@@ -1,0 +1,364 @@
+.box {
+    height: 2000px;
+  }
+  
+  .new_arrivals_another {
+    display: none;
+  }
+  
+  
+  .row-sneakers .col-lg-2 {
+    height: 280px;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  .see-more {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .see-more a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .see-more:hover a {
+    text-decoration: underline;
+  }
+  
+  .info p {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .social i {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .list-menu-cate {
+      position: absolute;
+      left: 25%;
+      right: 25%;
+      margin-top: 10px;
+      background-color: white;
+      justify-content: space-around;
+      border: 1px solid #ccc;
+      transition: 0.5s;
+      display: none;
+  }
+  
+  #menu-cate:hover .list-menu-cate {
+      display: flex;
+      justify-content: start;
+  }
+  
+  .all-products li {
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding: 0;
+      margin-left: 10px;
+      margin-top: 10px;
+      position: relative;
+      border: 1px solid rgb(165, 165, 165);
+      font-size: 15px;
+      transition: 0.5s;
+  }
+  
+  .all-products li img {
+      margin-right: 10px;
+  }
+  
+  .all-products p {
+      margin-top: 15px;
+      font-weight: bold;
+  }
+  
+  .sub-shoe-item p {
+      font-size: 13px;
+      text-align: center;
+  }
+  
+  .all-products {
+      padding: 0;
+  }
+  
+  .sub-shoes {
+      position: absolute;
+      top: -10px;
+      display: flex;
+      justify-content: space-evenly;
+      align-self: center;
+      left: 170px;
+      width: 555px;
+      height: 440px;
+      transition: 0.5s;
+      display: none;
+      color: black;
+      flex-wrap: wrap;
+  }
+  
+  .sub-jordan-item {
+      margin: 0 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .sub-jordan-item img {
+      transform: translate(30px, 10px);
+      transition: 0.5s;
+  }
+  
+  .all-products li:hover {
+      background-color: black;
+  }
+  
+  .all-products li:hover .sub{
+      color: white;
+  }
+  
+  .img-jordan {
+      position: absolute;
+      top: 20px;
+  }
+  
+  .sub-shoe-item img:hover {
+      width: 90%;
+  }
+  
+  .sub{
+      color: black;
+  }
+  
+  .all-jordan:hover .sub-jordan {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .all-nike:hover .sub-nike {
+      display: flex;
+      justify-content: space-evenly;
+      top: -50px;
+  }
+  
+  .all-adidas:hover .sub-adidas {
+      display: flex;
+      justify-content: space-evenly;
+      top: -90px;
+  }
+  
+  .all-vans:hover .sub-vans {
+      display: flex;
+      justify-content: space-evenly;
+      top: -210px;
+  }
+  
+  .all-converse:hover .sub-converse {
+      display: flex;
+      justify-content: space-evenly;
+      top: -130px;
+  }
+  
+  .all-mlb:hover .sub-mlb {
+      display: flex;
+      justify-content: space-evenly;
+      top: -170px;
+  }
+  
+  .all-yeezy:hover .sub-yeezy {
+      display: flex;
+      justify-content: space-evenly;
+      top: -250px;
+  }
+  
+  .all-newbalance:hover .sub-newbalance {
+      display: flex;
+      justify-content: space-evenly;
+      top: -290px;
+  }
+  
+  .all-matkinh:hover .sub-matkinh {
+      display: flex;
+      justify-content: space-evenly;
+      top: -330px;
+  }
+  
+  .all-vo:hover .sub-vo {
+      display: flex;
+      justify-content: space-evenly;
+      top: -370px;
+  }
+  
+  .all-daygiay:hover .sub-daygiay {
+      display: flex;
+      justify-content: space-evenly;
+      top: -410px;
+  }
+  
+  .list-menu-cate:hover .logo-sub {
+      display: none;
+  }
+  
+  .cate {
+    height: 50px;
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    color: white;
+  }
+  
+  .icon-action {
+    height: 50px;
+    color: white;
+    font-size: 32px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .menu-mobile {
+    display: none;
+    background-color: black;
+    position: relative;
+  }
+  
+  .nav-mobile li {
+    list-style: none;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 20px;
+  }
+  
+  .nav-mobile {
+    width: 300px;
+    background-color: black;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    margin-left: -300px;
+    transition: 0.5s;
+  }
+  #commingSoon {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .footer {
+    margin-top: 200px;
+  }
+  
+  /* table and mobile : width < 1024 px*/
+  
+  @media only screen and (max-width: 63.9375em) {
+
+    .navtotal,
+    .nav__navitem,
+    #brands {
+        display: none;
+    }
+    .row {
+        --bs-gutter-x: 0px;
+    }
+    .menu-mobile {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .call__item {
+        margin: 0 0 50px 0;
+        justify-content: center;
+    }
+    .product__action button {
+        width: 200px;
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+    .product__name {
+        font-size: 12px;
+        transform: translateY(-5px);
+        margin-top: 20px;
+        height: auto;
+    }
+    .product__name__detail {
+      font-size: 12px;
+      transform: translateY(-5px);
+      margin-top: 20px;
+      height: auto;
+    }
+    .product__price {
+        font-size: 14px;
+        transform: translateY(-20px);
+    }
+    .product__action {
+        margin-top: 25px;
+    }
+    .product:hover .product__image {
+        transform: translate(10px, -20px) rotate(20deg);
+    }
+    .product:hover .product__name {
+        transform: translateY(-40px);
+    }
+    .product:hover .product__name__detail {
+      transform: translateY(-40px);
+    }
+    .product:hover .product__price {
+        transform: translateY(-55px);
+    }
+    .product:hover .product__action {
+        transform: translateY(-75px);
+        z-index: 1;
+    }
+    .product__action {
+        flex-wrap: wrap;
+    }
+    .product {
+        height: 278px;
+    }
+    #left {
+        left: 0;
+        font-size: 35px;
+        top: 47%;
+        color: white;
+        background-color: black;
+    }
+    #right {
+        right: 0;
+        font-size: 35px;
+        top: 47%;
+        color: white;
+        background-color: black;
+    }
+  }
+  
+  /* mobile : width < 740px and > 350px*/
+  
+  @media only screen and (max-width: 46.1875em) and (min-width: 21.875em) {
+
+
+    .new_arrivals_another {
+      margin-top: 50px;
+      display: block;
+    }
+    .new_arrivals_desktop {
+      display: none;
+    }
+    .map {
+        height: 300px;
+    }
+    .info {
+        font-size: 12px;
+        height: 100%;
+    }
+    .copy {
+        font-size: 13px;
+    }
+    #active {
+        font-size: 25px;
+    }
+  }

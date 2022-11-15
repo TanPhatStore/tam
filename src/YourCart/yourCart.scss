@@ -1,0 +1,151 @@
+
+
+.yourCart {
+    margin-top: 175px;
+
+    & .titlePage {
+        text-align: center;
+        padding: 0 400px;
+        border-bottom: 3px solid black;
+        margin: auto;
+        padding: 0;
+
+        & .title {
+            font-size: 30px;
+            font-weight: 700;
+        }
+        & .description {
+            font-size: 18px;
+        }
+    }
+
+    & .ContentCart {
+        margin-top: 30px;
+        justify-content: center;
+
+        & .listProductCart {
+
+            & .productAvaiable {
+                border-bottom: 2px  solid rgb(211, 206, 206);
+                margin: 10px 0;
+                height: 130px;
+                display: flex;
+                justify-content: space-evenly;
+                
+
+
+                &__image {
+                    height: 100%;
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+            
+                    
+                    & img {
+                        object-fit: contain;
+                    }
+                }
+
+                &__info {
+                    width: 74%;
+                    font-size: 17px;
+                    padding-left: 20px;
+                    position: relative;
+
+                    & p {
+                        margin-bottom: 0;
+                    }
+
+                    &__name {
+                        font-size: 18px;
+                        font-weight: 800;
+                        font-family: 'poppins';
+                        margin-top: 10px;
+                    }
+
+                    &__sizeAndcolor {
+                        display: flex;
+                        font-family: 'poppins';
+                        margin-top: 8px;
+                        & .size {
+                            margin-right: 30px;
+                        }
+                    }
+
+                    &__price {
+                        margin-top: 8px;
+                        font-family: 'poppins';
+                        font-size: 17px;
+                    }
+                
+                    &__amount {
+                        position: absolute;
+                        top: 10px;
+                        right: 0;
+                    }
+
+                    &__TotalMoney {
+                        position: absolute;
+                        display: flex;
+                        bottom: 8px;
+                        right: 0;
+                        font-size: 18px;
+                        font-weight: 600;
+                         
+                        & p {
+                            font-family: 'poppins';
+                            margin-left: 10px;
+                        }
+                    }
+                }   
+            }
+        }
+    
+        & .infoTotal {
+            height: 300px;
+            border: 2px  solid rgb(211, 206, 206);
+            border-radius: 15px;
+            &__title {
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 10px;
+                border-bottom: 2px  solid rgb(211, 206, 206);
+            }
+
+            &__price {
+                font-size: 20px;
+                font-weight: 700;
+                margin: 15px 20px;
+                display: flex;
+                line-height: 30px;
+
+                & p {
+                    margin-left: 10px;
+                    color: red;
+                    margin-bottom: 0;
+                }
+            }
+
+            &__action {
+                display: flex;
+                flex-direction: column;
+
+                &__pay {
+                    margin: 10px 0;
+                    background-color: black;
+                    color: white;
+                    line-height: 40px;
+                    font-size: 17px;
+                }
+
+                &__continueShopping {
+                    border: 0;
+                    background: 0;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}

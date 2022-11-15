@@ -1,0 +1,22 @@
+.listBannerMain {
+    display: flex;
+    transition: 0.5s;
+    height: 504px;  
+}
+
+#boxListBanner {
+    position: absolute;
+    top: 450px;
+    left: 47%;
+    z-index: 1;
+    display: flex;
+}
+.boxListBannerItem {
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 0 2px ;
+    border: 3px solid gray;
+}
+.activeBoxList {
+    background-color: gray;
+}
